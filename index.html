@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+
+<input type="text" id="textStuff">
+<button onclick="doStuff(document.getElementById('textStuff').value)">go</button>
+<p id="putHere"></p>
+
+<script>
+
+function doStuff(textStuff){
+	document.getElementById('putHere').innerHTML=textStuff;
+}
+
+</script>
+
+</body>
+</html>
